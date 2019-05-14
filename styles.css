@@ -1,0 +1,170 @@
+*{
+    box-sizing:  border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.html, body{
+    margin: 0;
+    padding: 0;
+}
+.nav ul{
+    margin:0;
+    padding: 0.5em;
+}
+.nav li {
+    display : inline;
+}
+.nav a{
+    display: inline-block;
+    padding: 0.2em;
+    color: white;
+    text-decoration: none;
+}
+.main-nav{
+    text-align: center;
+    font-size: 0.5cm;
+    font-weight: lighter;
+    }
+.main-nav li{
+    padding: 10%
+}
+.nav a:hover{
+    background-color: grey;
+}
+
+.main-header{
+    background-color: black;
+ }
+
+.nama-toko{
+    margin : 0;
+    font-weight: normal
+}
+.nama-toko-large{
+  font-size: 9mm
+}
+.content-section{
+    margin: 1mm;
+}
+
+.container {
+    max-width: 900px;
+    margin : 0 auto;
+   padding: 0 1.5em;
+}
+
+.section-header{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+    color: red;
+    text-align: center;
+    font-size : 2em;
+}
+
+.about-toko-image{
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin: 15px;
+}
+
+.about-logo{
+    float : left;
+    height: 40px;
+    width: 60px;
+}
+
+.main-footer{
+    background-color: black;
+    color: white;
+}
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav{
+    padding: 0.5em;
+}
+
+.footer-nav img{
+    width:30px;
+    height:30px;
+}
+.toko-name{
+    text-align:center;
+    font-weight: normal;
+    padding-left: 4cm
+}
+.toko-name2{
+    text-align:left;
+    font-weight: normal;
+}
+.shop-item{
+    margin:30px;
+}
+
+.shop-item-title{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: brown;
+    margin-bottom: 15px;
+}
+
+.shop-item-image{
+    height: 250px;
+}
+
+.shop-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+     
+}
+
+.image-djong{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.ourtime{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+    text-align: left;
+    font-size : 2em;
+}
+.ourtime1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+    text-align: center;
+    font-size : 2em;
+}
+
+.temp2{
+    float: right;
+    height: 250px;
+    width: 300px;
+    margin: 15px;
+}
+.mart1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+    text-align: left;
+    font-size : 19px;
+}
+
+.mart2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+    text-align: left;
+    font-size : 19px;
+    padding-bottom: 10px; 
+}
